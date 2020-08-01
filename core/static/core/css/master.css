@@ -1,0 +1,73 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #162447;
+}
+
+header .site-logo{
+  width: 60%;
+}
+header .sesion{
+  color: #162447;
+  text-decoration: none;
+  border: #162447 1px solid;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color .5s;
+}
+header .sesion:hover{
+  background-color: #21BF73 !important;
+  color: #FFFFFF !important;
+  border-color: #FFFFFF;
+}
+.main .mensaje{
+  text-align: center;
+  color: #E43F5A;
+}
+.main .mensaje i{
+  font-weight: bold;
+}
+.main h1{
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.main form{
+  font-weight: bold;
+  padding: 20px;
+  border: #1B1B2F solid 1px;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px 0 #20212447
+}
+.main form button{
+  background-color: #162447;
+  border-color: inherit;
+  transition: background-color .5s;
+}
+.main form button:hover{
+  background-color: #21BF73 !important;
+  border-color: #FFFFFF;
+}
+.slides p{
+  font-size: 30px;
+  font-weight: bold;
+}
+.slides .container-slides{
+  border: #162447 .5px solid !important;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 1px 6px 0 #20212447
+}
+.slides img{
+  margin-left: 50px;
+}
+.carousel-control-next-icon{
+  background-color: black;
+}
+.carousel-control-prev-icon{
+  background-color: black;
+}
+footer p{
+  text-align: center;
+}

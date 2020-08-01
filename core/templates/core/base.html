@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'core/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/master.css' %}">
+    <title></title>
+  </head>
+  <body>
+    <!--Site header-->
+    <header class="mb-5">
+      <nav class="site nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <a href="{% url 'main' %}">
+                <img src="{% static 'core/img/Logo.png' %}" alt="Sttockery" class="site-logo">
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 align-self-center">
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a href="#" class="nav-link sesion">Iniciar Sesión</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Site header-->
+    <!--Main Section-->
+    {% block content %}
+    {% endblock %}
+    <!--Main Section-->
+    <section>
+      <footer class="site-footer mb-5 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 align-self-center">
+              <p>Esta es una idea que pronto será realidad</p>
+              <p>¡Espéranos!</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="{% static 'core/js/jquery.min.js' %}" charset="utf-8"></script>
+    <script src="{% static 'core/js/bootstrap.min.js' %}" charset="utf-8"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+  </body>
+</html>
