@@ -85,7 +85,7 @@ else:
     DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'landingDB',
+        'NAME': 'landingdb',
         'USER': 'landing_admin',
         'PASSWORD': 'testing123',
         'HOST': 'localhost',
