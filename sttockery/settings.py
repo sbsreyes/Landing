@@ -25,7 +25,7 @@ SECRET_KEY = '24)2feknl6#h*2o=x94hnsufq90v$#r(gb!m9%^atb#zoju1wb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['142.93.250.142', 'www.sttockery.com', 'sttockery.com']
 
 
 # Application definition
